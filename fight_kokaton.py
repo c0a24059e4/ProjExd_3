@@ -144,6 +144,8 @@ class Bomb:
         self.rct.move_ip(self.vx, self.vy)
         screen.blit(self.img, self.rct)
 
+
+#スコアを表示するためのクラス
 class Score:
     """
     スコア表示に関するクラス
@@ -220,4 +222,3 @@ if __name__ == "__main__":
     main()
     pg.quit()
     sys.exit()
-    
